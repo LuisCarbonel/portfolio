@@ -42,11 +42,15 @@
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease;
+  /* text-shadow: 1px 2px 2px grey;
+  box-shadow: 1px 2px 2px grey; */
 }
 
 /* Hamburger Lines - Top & Bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
+  /* text-shadow: 1px 2px 2px grey;
+  box-shadow: 1px 2px 2px grey; */
   content: '';
   position: absolute;
   z-index: 1;
@@ -59,6 +63,8 @@
 /* Moves Line Down */
 .menu-wrap .hamburger > div::after {
   top: 10px;
+  /* text-shadow: 1px 2px 2px grey;
+  box-shadow: 1px 2px 2px grey; */
 }
 
 /* Toggler Animation */
@@ -131,11 +137,13 @@
   list-style: none;
   color: #fff;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
-  color: inherit;
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
   text-decoration: none;
   transition: color 0.4s ease;
 }
@@ -143,8 +151,30 @@
 
 .name-icon{
   font-size: 20px;
+  position: fixed;
+  top: 0;
   color: white;
   text-decoration: none;
   display: flex;
   padding: 1rem;
+  font-weight: 700;
+  /* text-shadow: 1px 2px 2px grey; */
+}
+.name-icon:hover{
+  animation: lightning 1s infinite linear;
+}
+
+@keyframes lightning {
+  0% {
+      transform: translateY(0);
+  }
+  10% {
+      transform: translateY(-5px);
+  }
+  30% {
+      transform: translateY(5px);
+  }
+  100% {
+      transform: translateY(0);
+  }
 }
