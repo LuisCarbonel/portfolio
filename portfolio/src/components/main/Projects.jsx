@@ -1,20 +1,23 @@
 import React from 'react'
 
-class Navigation extends React.Component{
+class Projects extends React.Component{
   constructor() {
-    super();
+    super()
+    
   }
+  
+
+
 
 
 
   render() {
     return (
       <div>
-        Nav bar here...
+        Home
       </div>
     )
   }
-
 }
 
-export default Navigation
+export default Projects
