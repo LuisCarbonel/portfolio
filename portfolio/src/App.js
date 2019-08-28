@@ -1,6 +1,7 @@
 import React from 'react';
 import {Route, Link} from 'react-router-dom'
 import './App.css';
+import Navigation from './components/header/Navigation';
 
 class App extends React.Component {
   constructor() {
@@ -15,7 +16,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
+        <Navigation/>
       </div>
     );
   }
