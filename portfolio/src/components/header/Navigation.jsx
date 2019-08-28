@@ -12,7 +12,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <a href="/" >Luis Carbonel</a>
+        <a href="/" className="name-icon">Luis Carbonel</a>
         <div className="menu-wrap">
           <input type="checkbox" class="toggler"/>
             <div className="hamburger"><div></div></div>
@@ -21,8 +21,8 @@ class Navigation extends React.Component {
                 <div>
                   <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                   </ul>
                 </div>
