@@ -85,12 +85,12 @@
 
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: var(--menu-speed);
+  transition-duration: 1.5s;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
-  transition:  opacity 0.4s ease 0.4s;
+  transition:  opacity 0.4s ease 0.3s;
 }
 
 .menu-wrap .menu {
@@ -107,7 +107,7 @@
 }
 
 .menu-wrap .menu > div {
-  background: var(--overlay-color);
+  background:	rgb(255,255,255,0.4);
   border-radius: 50%;
   width: 200vw;
   height: 200vw;
