@@ -3,6 +3,7 @@ import {Route, Link} from 'react-router-dom'
 import './App.css';
 import Navigation from './components/header/Navigation';
 import Home from './components/main/Home';
+import Projects from './components/main/Projects';
 
 class App extends React.Component {
   constructor() {
@@ -20,9 +21,10 @@ class App extends React.Component {
         <heade>
         <Navigation />
         </heade>
-        <body>
-        <Home/>
-        </body>
+        <main>
+          <Route path="/" render={ ()=> <Home />}/>
+          <Route path="/projects" render={ ()=> <Projects />}/>
+        </main>
         <footer>
            
         </footer>

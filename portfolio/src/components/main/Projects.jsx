@@ -13,8 +13,13 @@ class Projects extends React.Component{
 
   render() {
     return (
-      <div>
-        Home
+      <div className="project-section">
+        <div>
+          PROJECTS
+        </div>
+        <div>
+          
+        </div>
       </div>
     )
   }
