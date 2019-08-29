@@ -28,11 +28,11 @@ a{
 .welcome-text{
   color: white;
     position: absolute;
-    padding-top: 31rem;
+    padding-top: 34rem;
     margin-bottom: 12rem;
     padding-left: 14rem;
-    width: 23%;
-    font-size: 20px;
+    width: 28%;
+    font-size: 33px;
     font-weight: 600;
 }
 
@@ -143,6 +143,7 @@ a{
   border-radius: 20px;
   margin-left: 39px;
   margin-top: 29px;
+  box-shadow: 0px 0px 6px 3px white
 }
 .site-btn2{
   font-weight: 900;
@@ -150,6 +151,7 @@ a{
   width: 70px;
   border-radius: 20px;
   margin-left: 39px;
+  box-shadow: 0px 0px 6px 3px white
 }
 .site-btn3{
   font-weight: 900;
@@ -158,6 +160,7 @@ a{
   border-radius: 20px;
   margin-left: 39px;
   margin-top: 7rem;
+  box-shadow: 0px 0px 6px 3px white
 }
 .site-btn4{
   font-weight: 900;
@@ -166,6 +169,7 @@ a{
   border-radius: 20px;
   margin-left: 39px;
   margin-top: 5.3rem;
+  box-shadow: 0px 0px 6px 3px white
 }
 .site-btn1 > a:visited, .site-btn2 > a:visited,  .site-btn3 >a:visited, .site-btn4 >a:visited{
 color: black;
