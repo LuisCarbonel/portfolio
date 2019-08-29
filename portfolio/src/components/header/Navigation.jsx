@@ -22,7 +22,7 @@ class Navigation extends React.Component {
                   <ul>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#projects"> PROJECTS</a></li>
-                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
                     <li><a href="#">CONTACT</a></li>
                   </ul>
                 </div>

@@ -40,7 +40,7 @@ a{
   display: inline-block;
   margin-bottom: 3.2rem;
 }
-.line1, .line2, .line3, .scroll-down{
+.line1, .line2, .line3, .line4, .line5, .line6, .line7, .scroll-down{
   position: absolute;
   display: block;
   height: 6px;
@@ -66,6 +66,30 @@ a{
   margin-top: 47.5rem;
   margin-left: 15rem;
   height: 2px;
+}
+.line4{
+  width: 20rem;
+  background: greenyellow;
+  margin-top: 0.5rem;
+  margin-left: 0rem;
+}
+.line5{
+  width: 13rem;
+  background: pink;
+  margin-top: 1.5rem;
+  margin-left: 13rem;
+}
+.line6{
+  width: 22rem;
+  background: deepskyblue;
+  margin-top: -0.5rem;
+  margin-left: 0rem;
+}
+.line7{
+  width: 14rem;
+  background: red;
+  margin-top: 0.5rem;
+  margin-left: 17rem;
 }
 .scroll-down{
   line-height: 1;
@@ -174,13 +198,23 @@ a{
   margin-top: 5.3rem;
   box-shadow: 0px 0px 6px 3px white
 }
-.site-btn1 > a:visited, .site-btn2 > a:visited,  .site-btn3 >a:visited, .site-btn4 >a:visited{
+.site-btn5{
+  margin-top: 110px;
+  font-weight: 900;
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  margin-left: 39px;
+  box-shadow: 0px 0px 6px 3px white;
+
+}
+.site-btn1 > a:visited, .site-btn2 > a:visited,  .site-btn3 >a:visited, .site-btn4 >a:visited, .site-btn5 >a:visited{
 color: black;
 }
-.site-btn1 > a:hover, .site-btn2 > a:hover,  .site-btn3 >a:hover, .site-btn4 >a:hover{
+.site-btn1 > a:hover, .site-btn2 > a:hover,  .site-btn3 >a:hover, .site-btn4 >a:hover,.site-btn5 >a:hover{
   color:#eeeeee;
   }
-.site-btn1:hover, .site-btn2:hover,  .site-btn3:hover, .site-btn4:hover{
+.site-btn1:hover, .site-btn2:hover,  .site-btn3:hover, .site-btn4:hover, .site-btn5:hover{
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));
   background:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);
   background:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);
@@ -232,5 +266,16 @@ color: black;
   background-size: 750px 450px;
   border-radius: 10px;
 }
-
+/* ---------------------------------------PROJECT SECTION END------------------------ */
+.about-section{
+  margin-top: 16rem;
+  padding-left: 14rem;
+}
+.about-title{
+  margin-bottom: 5rem;
+  width: 34%;
+  font-size: 7rem;
+  font-weight: 700;
+  text-shadow: 1px 3px 3px grey;
+}
 

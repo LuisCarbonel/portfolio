@@ -17,6 +17,8 @@ class Projects extends React.Component{
         <a href='#projects'></a>
         <div className="project-title">
           Projects
+          <span className="line4"></span>
+          <span className="line5"></span>
         </div>
         <div className="project-container3">
           <div className="project5"></div>
@@ -33,11 +35,11 @@ class Projects extends React.Component{
         <div className="project-container2">
           <div className="project2"></div>
           <div className="project-text-left">
-          <b>WORD SCRAMBLE GAME: </b><br /> <p>This is a website for Pokémon lovers and why not? For those who don't know anything related to Pokémons but are just curious about their interesting names, habilities and appearance.A funny and educational game for those who want to learn new vocabulary and definitions, or just having fun proving to yourself how many words you can guess and reach a record score.</p>
+          <b>WORD SCRAMBLE GAME: </b><br /> <p>A funny and educational game for those who want to learn new vocabulary and definitions, or just having fun proving to yourself how many words you can guess and reach a record score. </p>
             <b>Development: </b><br/>
             <p>Using React.JS, and CSS</p>
           </div>
-          <button className="site-btn2" >
+          <button className="site-btn5" >
           <a href="http://word-game-panda.surge.sh/">Visit site</a>
           </button>
         </div>

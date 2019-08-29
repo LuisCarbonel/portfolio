@@ -13,8 +13,13 @@ class AboutMe extends React.Component{
 
   render() {
     return (
-      <div>
-        About Me
+      <div className="about-section" id="about">
+        <a href='#about'></a>
+        <div className="about-title">
+          About Me
+          <span className="line6"></span>
+          <span className="line7"></span>
+        </div>  
       </div>
     )
   }
