@@ -291,4 +291,13 @@ color: black;
     font-size: 1.5rem;
     font-weight: 700;
 }
-
+.photo{
+  background: url('../../assets/images/photo2.jpg');
+  height: 375px;
+  width: 375px;
+  float: right;
+  background-size: cover;
+  margin-right: 14rem;
+  border-radius: 20px;
+  box-shadow: 1px 1px 9px white;
+}

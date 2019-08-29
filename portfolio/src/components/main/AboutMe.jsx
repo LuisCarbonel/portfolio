@@ -25,6 +25,7 @@ class AboutMe extends React.Component {
           My main hobbies are playing online videogames, eating delicious food, playing with my dog Bamboo, traveling, chill with my friends, watching movies, series and memes.
           Also, now that I got involved in the amazing world of programming, I've been loving bringing to life my crazy ideas through coding, building innovative and helpful stuff, and learning more every day.
         </div>
+        <div className="photo"></div>
       </div>
     )
   }
