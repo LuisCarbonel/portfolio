@@ -25,6 +25,9 @@ class Projects extends React.Component{
             <b>Development: </b><br/>
             <p>Using React.JS, Ruby on Rails, and CSS</p>
           </div>
+          <button className="site-btn1" >
+          <a href="http://yummypaw.surge.sh/">Visit site</a>
+          </button>
         </div>
 
         <div className="project-container2">
@@ -34,16 +37,21 @@ class Projects extends React.Component{
             <b>Development: </b><br/>
             <p>Using React.JS, and CSS</p>
           </div>
+          <button className="site-btn2" >
+          <a href="http://word-game-panda.surge.sh/">Visit site</a>
+          </button>
         </div>
 
         <div className="project-container">
           <div className="project3"></div>
           <div className="project-text-right">
           <b>PANDAS DINING CLUB: </b><br /> <p>If you don't have any idea where to go out for a delicious meal, this is the perfect site for you. This innovated website can suggest you a random restaurant, it may also contain reviews to let you have an idea if its good enough for you, also you are able to post your favorites restaurants to share your experience with other people.</p>
-            <br />
             <b>Development: </b><br/>
             <p>Using React.JS, Node.JS, Express.JS, PostgreSQL and Sequelize</p>
           </div>
+          <button className="site-btn2">
+          <a href="http://pandas-dining-club.surge.sh/">Visit site</a>
+          </button>
         </div>
 
         <div className="project-container3">
@@ -53,6 +61,9 @@ class Projects extends React.Component{
             <b>Development: </b><br/>
             <p>Using React.JS, and CSS</p>
           </div>
+          <button className="site-btn3">
+          <a href="http://oldtownbar.surge.sh/">Visit site</a>
+          </button>
         </div>
 
         <div className="project-container">
@@ -63,6 +74,9 @@ class Projects extends React.Component{
             <b>Development: </b><br/>
             <p>Using HTML, CSS, JQuery, and JavaScript</p>
           </div>
+          <button className="site-btn4">
+          <a href="http://poke-dex-luis-carbonel.surge.sh/">Visit site</a>
+          </button>
         </div>
 
       </div>
