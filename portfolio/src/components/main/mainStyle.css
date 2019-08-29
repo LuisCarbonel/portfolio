@@ -13,13 +13,14 @@
 .welcome-name{
   color: white;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     padding-top: 13rem;
     margin-bottom: 12rem;
     padding-left: 14rem;
     width: 18%;
     font-size: 7rem;
     font-weight: 700;
+    text-shadow:1px 3px 3px grey;
 }
 .welcome-text{
   color: white;
@@ -31,3 +32,56 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+.border-letter{
+  display: inline-block;
+  margin-bottom: 3.2rem;
+}
+.line1, .line2, .line3, .scroll-down{
+  position: absolute;
+  display: block;
+  height: 6px;
+  border-radius: 5px;
+  }
+  
+.line1{
+  width: 18rem;
+  background: gold;
+  margin-top: 29rem;
+  margin-left: 14rem;
+}
+
+.line2{
+  background: #ff4d5a;
+  width: 25rem;
+  margin-top: 30rem;
+  margin-left: 26rem;
+}
+.line3{
+  background: white;
+  width: 83rem;
+  margin-top: 47.5rem;
+  margin-left: 15rem;
+  height: 2px;
+}
+.scroll-down{
+  line-height: 1;
+  letter-spacing: 0.3em;
+  font-size: 0.9rem;
+  writing-mode: vertical-rl;
+  width: 10px;
+  height: 104px;
+  color: white;
+  left: 226px;
+  animation: MoveUpDown 1s linear infinite;
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 60px;
+  }
+  50% {
+    bottom: 80px;
+  }
+}
+
+
