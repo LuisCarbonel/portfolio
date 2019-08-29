@@ -1,11 +1,11 @@
 import React from 'react'
 
-class AboutMe extends React.Component{
+class AboutMe extends React.Component {
   constructor() {
     super()
-    
+
   }
-  
+
 
 
 
@@ -19,7 +19,12 @@ class AboutMe extends React.Component{
           About Me
           <span className="line6"></span>
           <span className="line7"></span>
-        </div>  
+        </div>
+        <div className="aboutme">
+          Hi there! My name is Luis Carbonel and I am a 24 years old front-end web developer. I am very friendly, honest and competitive.
+          My main hobbies are playing online videogames, eating delicious food, playing with my dog Bamboo, traveling, chill with my friends, watching movies, series and memes.
+          Also, now that I got involved in the amazing world of programming, I've been loving bringing to life my crazy ideas through coding, building innovative and helpful stuff, and learning more every day.
+        </div>
       </div>
     )
   }

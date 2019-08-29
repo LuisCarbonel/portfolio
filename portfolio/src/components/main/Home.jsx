@@ -2,6 +2,7 @@ import React from 'react'
 import './mainStyle.css'
 import Projects from './Projects';
 import AboutMe from './AboutMe';
+import Contact from '../footer/Contact';
 
 class Home extends React.Component {
   constructor() {
@@ -32,7 +33,8 @@ class Home extends React.Component {
           <div className="avatar" />
         </div>
         <Projects />
-        <AboutMe/>
+        <AboutMe />
+        <Contact/>
       </>
     )
   }

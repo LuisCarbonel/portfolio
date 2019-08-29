@@ -154,6 +154,7 @@ a{
   padding-left: 55%;
   margin-top: 7px;
   font-size: 1.5rem;
+  font-weight: 500;
 }
 .project-text-left{
   margin-right: 59px;
@@ -161,6 +162,7 @@ a{
   margin-top: 7px;
   font-size: 1.5rem;
   margin-left: 38px;
+  font-weight: 500;
 }
 
 .site-btn1{
@@ -233,6 +235,7 @@ color: black;
   height: 450px;
   background-size: 750px 450px;
   border-radius: 10px;
+  font-weight: 700;
 }
 .project2{
   background: url('../../assets/images/p2.jpg');
@@ -241,6 +244,7 @@ color: black;
   height: 450px;
   background-size: 750px 450px;
   border-radius: 10px;
+  font-weight: 700;
 }
 .project3{
   background: url('../../assets/images/p3.jpg');
@@ -249,6 +253,7 @@ color: black;
   height: 450px;
   background-size: 750px 450px;
   border-radius: 10px;
+  font-weight: 700;
 }
 .project4{
   background: url('../../assets/images/p4.jpg');
@@ -257,6 +262,7 @@ color: black;
   height: 450px;
   background-size: 750px 450px;
   border-radius: 10px;
+  font-weight: 700;
 }
 .project5{
   background: url('../../assets/images/p5.jpg');
@@ -265,6 +271,7 @@ color: black;
   height: 450px;
   background-size: 750px 450px;
   border-radius: 10px;
+  font-weight: 700;
 }
 /* ---------------------------------------PROJECT SECTION END------------------------ */
 .about-section{
@@ -277,5 +284,11 @@ color: black;
   font-size: 7rem;
   font-weight: 700;
   text-shadow: 1px 3px 3px grey;
+}
+.aboutme{
+  float: left;
+    width: 36%;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 

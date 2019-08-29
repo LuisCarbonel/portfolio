@@ -1,0 +1,43 @@
+
+.contact-section{
+  margin-top: 39rem;
+  padding-left: 14rem;
+}
+.contact-title{
+  margin-bottom: 5rem;
+  width: 44%;
+  font-size: 7rem;
+  font-weight: 700;
+  text-shadow: 1px 3px 3px grey;
+}
+.line8{
+  position: absolute;
+  display: block;
+  height: 6px;
+  border-radius: 5px;
+  width: 23rem;
+  background: mediumpurple;
+  margin-top: -0.5rem;
+  margin-left: 0rem;
+}
+.line9{
+  position: absolute;
+  display: block;
+  height: 6px;
+  border-radius: 5px;
+  width: 22rem;
+  background: gold;
+  margin-top: 0.5rem;
+  margin-left: 17.5rem;
+}
+.contact-links{
+  font-size: 1.8rem;
+}
+.contact-links > a{
+  color: white;
+}
+.contact-links > a > p:hover{
+  opacity: 0.5;
+} 
+
+
